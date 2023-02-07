@@ -3,17 +3,17 @@ const { existsSync } = require('fs')
 if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 module.exports = {
     VERSION: 'V 1.0.0', // bot version
-    SESSION_ID: process.env.SESSION_ID || '',//enter your ssid to run bot
+    SESSION_ID: process.env.SESSION_ID || 'inrl~VOXjsMq73gW5Co/zHEUP53Y9Xslf8x9rA3dt',//enter your ssid to run bot
     MONGO_URL : process.env.MONGO_URI,//mongo url;
-    PASSWORD: process.env.PASSWORD || '', //set passworkd to use 18+ plugins pss = inrl-bot~md
-    REACT : process.env.REACT || 'false', //to react  almsg automaticaly
+    PASSWORD: process.env.PASSWORD || '1234', //set passworkd to use 18+ plugins pss = inrl-bot~md
+    REACT : process.env.REACT || 'true', //to react  almsg automaticaly
     WARNCOUND : process.env.WARNCOUND || "5", // to kick a person by war cound
     GROUP_CHAT : process.env.GROUP_CHAT || 'false', // to set chat bot on grp
     FREE_TXT : process.env.FREE_TXT || 'inrlbotmd',//nothing😉
     U_STATUS: process.env.U_STATUS || 'false', //to update profilesatus automaticily
     ALIVETXT: process.env.ALIVETXT || 'INRL-BOT-MD', //nothing😛
     ALIVE_DATA : process.env.ALIVE_DATA || "https://i.imgur.com/Gi29skA.jpeg,aliveText,alivebButtenText1,aliveTextButten2",// coustamized alive bottun😛
-    READ_CHAT : process.env.READ_CHAT || "true", //values are true and false only if true read all chats
+    READ_CHAT : process.env.READ_CHAT || "false", //values are true and false only if true read all chats
     BOT_INFO : process.env.BOT_INFO || "𝐃𝐎𝐌𝐈𝐍𝐈𝐂,💗,https://i.imgur.com/Gi29skA.jpeg", // about the bot as img number for menu such plugins
     BGMBOT : process.env.BGMBOT || 'false', //to set bot as bgm bot
     WORKTYPE: process.env.WORKTYPE || 'public', //bot working mode
