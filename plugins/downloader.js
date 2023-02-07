@@ -73,9 +73,9 @@ try{
 
 inrl(
 	   {
-		pattern: ['ytmp4'],
+		pattern: ['video'],
 		desc: 'To get yt video',
-                sucReact: "💯",
+                sucReact: "💗",
                 category: ["system", "all", "downloade"],
                 type : "download"
 	   },
@@ -85,9 +85,9 @@ await getYtV(message, client);
 );
 inrl(
 	   {
-		pattern: ['ytmp3'],
+		pattern: ['play'],
 		desc: 'get yt video as mp3 output',
-                sucReact: "🤙",
+                sucReact: "🌈",
                 category: ["system", "all", "downloade"],
                 type : "download"
 	   },
